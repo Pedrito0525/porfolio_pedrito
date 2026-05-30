@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Pedrito M Parrilla III — IT graduate, developer of eCampusPay and campus systems."
+    />
+    <title>Pedrito Parrilla | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <nav class="nav container" aria-label="Main">
+        <a class="nav__logo" href="#top"
+          >PP<span class="nav__logo-dot">.</span></a
+        >
+        <button
+          class="nav__toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+          aria-label="Open menu"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav__menu" id="nav-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact" class="nav__cta">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="hero__bg" aria-hidden="true"></div>
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <p class="hero__eyebrow">
+              Junior IT Developer | AI-Assisted Web Developer | Technical
+              Support
+            </p>
+            <h1 class="hero__title">
+              Hi, I'm <span class="gradient-text">Pedrito Parrilla</span>
+            </h1>
+            <p class="hero__lead">
+              Information Technology student building practical campus solutions
+              — from e-wallets to admin dashboards and IoT monitoring.
+            </p>
+            <div class="hero__actions">
+              <a href="#projects" class="btn btn--primary">View my work</a>
+              <a href="#contact" class="btn btn--ghost">Get in touch</a>
+            </div>
+            <ul class="hero__stats" aria-label="Highlights">
+              <li>
+                <strong>2026</strong>
+                <span>Graduation</span>
+              </li>
+              <li>
+                <strong>eCampusPay</strong>
+                <span>Latest system</span>
+              </li>
+              <li>
+                <strong>5+</strong>
+                <span>GitHub repos</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero__visual">
+            <div class="profile-card">
+              <div class="profile-card__frame">
+                <img
+                  class="profile-card__img"
+                  src="assets/images/profile.JPG"
+                  alt="Pedrito M Parrilla III"
+                  id="profile-photo"
+                />
+                <div
+                  class="profile-card__placeholder"
+                  id="profile-placeholder"
+                  hidden
+                >
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    aria-hidden="true"
+                  >
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                    <circle cx="12" cy="7" r="4" />
+                  </svg>
+                  <span>Add your photo</span>
+                  <code>assets/images/profile.JPG</code>
+                </div>
+              </div>
+              <div class="profile-card__badge">
+                <span class="status-dot" aria-hidden="true"></span>
+                Open to opportunities
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <header class="section__header">
+            <span class="section__label">About</span>
+            <h2>Building systems that matter on campus</h2>
+          </header>
+          <div class="about__grid">
+            <p class="about__text">
+              I'm <strong>Pedrito M Parrilla III</strong>, an Information
+              Technology student at
+              <strong>Eastern Visayas State University — Ormoc Campus</strong>,
+              graduating in <strong>2026</strong>. I focus on full-stack and
+              mobile development with real-world impact — especially fintech and
+              campus operations.
+            </p>
+            <p class="about__text">
+              My most recent work is <strong>eCampusPay</strong>, an e-wallet
+              platform for campus payments, paired with admin and web
+              interfaces. Through OJT at <strong>ORMOCnet</strong>, I gained
+              hands-on experience in computer repair, assembly, and
+              customer-facing tech sales — alongside software projects on
+              GitHub.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="education">
+        <div class="container">
+          <header class="section__header">
+            <span class="section__label">Education</span>
+            <h2>Academic background</h2>
+          </header>
+          <article class="timeline-card">
+            <div class="timeline-card__icon" aria-hidden="true">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                <path d="M6 12v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5" />
+              </svg>
+            </div>
+            <div class="timeline-card__body">
+              <time datetime="2026">2026</time>
+              <h3>Bachelor of Science in Information Technology</h3>
+              <p class="timeline-card__org">
+                Eastern Visayas State University — Ormoc Campus
+              </p>
+              <p>
+                Coursework and projects in software development, databases, web
+                & mobile apps, and system design — applied through campus-scale
+                systems like eCampusPay.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="container">
+          <header class="section__header">
+            <span class="section__label">Experience</span>
+            <h2>On-the-job training</h2>
+          </header>
+
+          <article class="timeline-card timeline-card--wide">
+            <div
+              class="timeline-card__icon timeline-card__icon--work"
+              aria-hidden="true"
+            >
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <rect x="2" y="7" width="20" height="14" rx="2" />
+                <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+                <line x1="12" y1="12" x2="12" y2="12.01" />
+              </svg>
+            </div>
+            <div class="timeline-card__body">
+              <span class="timeline-card__badge">OJT</span>
+              <h3>Assistant Technician & Sales Assistant</h3>
+              <p class="timeline-card__org">ORMOCnet · Ormoc City</p>
+              <p class="timeline-card__summary">
+                Completed on-the-job training in a computer shop environment —
+                supporting technical operations and assisting customers with
+                product sales and service inquiries.
+              </p>
+              <div class="experience-roles">
+                <div class="experience-role">
+                  <h4>Technical (Assistant Technician)</h4>
+                  <ul class="experience-list">
+                    <li>Repaired and diagnosed desktop & laptop computers</li>
+                    <li>Assembled custom PC builds from components</li>
+                    <li>
+                      Installed operating systems, drivers, and applications
+                    </li>
+                    <li>Performed basic hardware & software troubleshooting</li>
+                    <li>Serviced and fixed printers and common peripherals</li>
+                  </ul>
+                </div>
+                <div class="experience-role">
+                  <h4>Sales (Tech / Sales Assistant)</h4>
+                  <ul class="experience-list">
+                    <li>
+                      Assisted customers with computer parts, accessories, and
+                      devices
+                    </li>
+                    <li>Explained specs and recommendations as a sales tech</li>
+                    <li>Supported front-line sales and shop operations</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="skills">
+        <div class="container">
+          <header class="section__header">
+            <span class="section__label">Skills</span>
+            <h2>Technologies I work with</h2>
+          </header>
+          <ul class="skills-grid">
+            <li class="skill-chip">JavaScript</li>
+            <li class="skill-chip">Dart / Flutter</li>
+            <li class="skill-chip">HTML & CSS</li>
+            <li class="skill-chip">REST APIs</li>
+            <li class="skill-chip">Git & GitHub</li>
+            <li class="skill-chip">IoT / Monitoring</li>
+            <li class="skill-chip">Admin Dashboards</li>
+            <li class="skill-chip">Mobile UI</li>
+            <li class="skill-chip">System Design</li>
+            <li class="skill-chip">Responsive Web</li>
+            <li class="skill-chip">PC Assembly</li>
+            <li class="skill-chip">OS Installation</li>
+            <li class="skill-chip">Hardware Repair</li>
+            <li class="skill-chip">Troubleshooting</li>
+            <li class="skill-chip">Printer Service</li>
+            <li class="skill-chip">Tech Sales</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container">
+          <header class="section__header">
+            <span class="section__label">Projects</span>
+            <h2>Selected work</h2>
+          </header>
+
+          <article class="project-card project-card--featured">
+            <span class="project-card__tag">Featured · Recent</span>
+            <h3>eCampusPay</h3>
+            <p>
+              Campus e-wallet ecosystem for digital payments — mobile app
+              (Dart/Flutter), admin site, and web client. Built for EVSU campus
+              operations.
+            </p>
+            <ul class="project-card__stack">
+              <li>Dart</li>
+              <li>Flutter</li>
+              <li>JavaScript</li>
+              <li>Admin Portal</li>
+            </ul>
+            <div class="project-card__links">
+              <a
+                href="https://github.com/Pedrito0525/ecampuspay-2025"
+                target="_blank"
+                rel="noopener noreferrer"
+                >ecampuspay-2025</a
+              >
+              <a
+                href="https://github.com/Pedrito0525/ecampuspayevsu"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Admin site</a
+              >
+              <a
+                href="https://github.com/Pedrito0525/ecampuspayweb"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Web app</a
+              >
+            </div>
+          </article>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <h3>SafeSync</h3>
+              <p>
+                JavaScript project focused on safe data synchronization
+                workflows.
+              </p>
+              <a
+                href="https://github.com/Pedrito0525/SafeSync"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-card__link"
+                >View on GitHub →</a
+              >
+            </article>
+            <article class="project-card">
+              <h3>IoT Home Monitoring</h3>
+              <p>
+                Home monitoring system using IoT concepts for real-time
+                environmental awareness.
+              </p>
+              <a
+                href="https://github.com/Pedrito0525/iot_project"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-card__link"
+                >View on GitHub →</a
+              >
+            </article>
+          </div>
+
+          <p class="projects-more">
+            More repositories on
+            <a
+              href="https://github.com/Pedrito0525"
+              target="_blank"
+              rel="noopener noreferrer"
+              >github.com/Pedrito0525</a
+            >
+          </p>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="contact">
+        <div class="container">
+          <header class="section__header">
+            <span class="section__label">Contact</span>
+            <h2>Let's connect</h2>
+            <p class="section__sub">
+              Open to internships, collaborations, and campus or freelance
+              projects.
+            </p>
+          </header>
+
+          <div class="contact-grid">
+            <a href="mailto:pedrito.parrilla05@gmail.com" class="contact-card">
+              <span class="contact-card__icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path
+                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+              </span>
+              <span class="contact-card__label">Email</span>
+              <span class="contact-card__value"
+                >pedrito.parrilla05@gmail.com</span
+              >
+            </a>
+
+            <a href="tel:+639382152553" class="contact-card">
+              <span class="contact-card__icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"
+                  />
+                </svg>
+              </span>
+              <span class="contact-card__label">Phone</span>
+              <span class="contact-card__value">0938 215 2553</span>
+            </a>
+
+            <a
+              href="https://github.com/Pedrito0525"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-card"
+            >
+              <span class="contact-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.15 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.62.24 2.85.12 3.15.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"
+                  />
+                </svg>
+              </span>
+              <span class="contact-card__label">GitHub</span>
+              <span class="contact-card__value">Pedrito0525</span>
+            </a>
+
+            <!-- Replace href="#" with your Facebook profile URL when ready -->
+            <span
+              class="contact-card contact-card--disabled"
+              title="Add your Facebook link in index.html"
+            >
+              <span class="contact-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                  />
+                </svg>
+              </span>
+              <span class="contact-card__label">Facebook</span>
+              <span class="contact-card__value contact-card__value--muted"
+                >Add link later</span
+              >
+            </span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p>© <span id="year"></span> Pedrito M Parrilla III</p>
+        <a href="#top" class="footer__top">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
